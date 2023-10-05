@@ -23,7 +23,7 @@ const Login = ({
     defaultAuthDataSetValidation
   );
   return (
-    <div className="login-form">
+    <div className="login-form my-3">
       <img
         className="login-alice-logo mb-4"
         src={

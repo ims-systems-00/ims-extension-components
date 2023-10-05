@@ -11,7 +11,6 @@ import {
 import PropTypes from "prop-types";
 import React from "react";
 import { BiEnvelope, BiLock, BiLogInCircle } from "react-icons/bi";
-import logo from "../../assets/img/brand/alice-full-logo.svg";
 import useForm from "../../hooks/useForm";
 import { defaultAuthDataSet, defaultAuthDataSetValidation } from "./form.dto";
 const Login = ({
@@ -25,7 +24,12 @@ const Login = ({
   );
   return (
     <div className="login-form">
-      <img className="login-alice-logo mb-4" src={logo} />
+      <img
+        className="login-alice-logo mb-4"
+        src={
+          "https://assets.imssystems.tech/images/logo/alice/alice-full-logo.svg"
+        }
+      />
       <h4 className="">Welcome!</h4>
       <p className="mb-5">Boost your business efficiency with AI technology.</p>
       <Form>

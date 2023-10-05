@@ -31,7 +31,7 @@ const Login = ({
         }
       />
       <h4 className="">Welcome!</h4>
-      <p className="mb-5">Boost your business efficiency with AI technology.</p>
+      <p className="mb-4">Boost your business efficiency with AI technology.</p>
       <Form>
         <InputGroup>
           <InputGroupText>
@@ -80,7 +80,7 @@ const Login = ({
           <small>Forgot password?</small>
         </a>
         <Button
-          className="mt-5 mb-2"
+          className="mt-4 mb-2"
           color="primary"
           type="submit"
           onClick={(e) => handleSubmit(e, onLogin)}

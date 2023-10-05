@@ -1,6 +1,6 @@
 {
   "name": "ims-extension-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "source": "src/index.js",
   "files": [
     "dist",

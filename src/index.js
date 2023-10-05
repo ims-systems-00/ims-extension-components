@@ -1,1 +1,1 @@
-export { default as Button } from "./components/Buttons/ButtonBase";
+export { default as AliceAuthPage } from "./components/AliceAuthPage/Index";

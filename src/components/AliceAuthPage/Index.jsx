@@ -11,7 +11,7 @@ import {
 import PropTypes from "prop-types";
 import React from "react";
 import { BiEnvelope, BiLock, BiLogInCircle } from "react-icons/bi";
-import useForm from "../../hooks/useForm";
+import { useForm } from "ims-ui-kit";
 import { defaultAuthDataSet, defaultAuthDataSetValidation } from "./form.dto";
 const Login = ({
   onLogin = () => {},

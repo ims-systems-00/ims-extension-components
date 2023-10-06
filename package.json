@@ -1,6 +1,6 @@
 {
   "name": "ims-extension-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "source": "src/index.js",
   "files": [
     "dist",
@@ -15,7 +15,7 @@
     "assert": "^2.1.0",
     "classnames": "2.3.2",
     "env-cmd": "^10.1.0",
-    "ims-ui-kit": "^2.4.9",
+    "ims-ui-kit": "^2.4.10",
     "node-sass": "^9.0.0",
     "node-sass-package-importer": "5.3.3",
     "prop-types": "15.8.1",

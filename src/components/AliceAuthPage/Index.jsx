@@ -25,13 +25,15 @@ const Login = ({
   return (
     <div className="login-form my-3">
       <img
-        className="login-alice-logo mb-4"
+        className="login-alice-logo"
         src={
           "https://assets.imssystems.tech/images/logo/alice/alice-full-logo.svg"
         }
       />
-      <h4 className="">Welcome!</h4>
-      <p className="mb-4">Boost your business efficiency with AI technology.</p>
+      <h4 className="text-center">Hello!</h4>
+      <p className="mb-4 text-center">
+        "Unlocking Potential, Empowering Performance, Ensuring Compliance"
+      </p>
       <Form>
         <InputGroup>
           <InputGroupText>

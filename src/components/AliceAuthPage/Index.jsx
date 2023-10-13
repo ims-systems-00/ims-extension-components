@@ -32,7 +32,9 @@ const Login = ({
       />
       <h4 className="text-center">Hello!</h4>
       <p className="mb-4 text-center">
-        "Unlocking Potential, Empowering Performance, Ensuring Compliance"
+        <small>
+          "Unlocking Potential, Empowering Performance, Ensuring Compliance"
+        </small>
       </p>
       <Form>
         <InputGroup>

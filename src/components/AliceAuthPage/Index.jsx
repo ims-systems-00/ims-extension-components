@@ -14,6 +14,7 @@ import { BiEnvelope, BiLock, BiLogInCircle } from "react-icons/bi";
 import { useForm } from "ims-ui-kit";
 import { defaultAuthDataSet, defaultAuthDataSetValidation } from "./form.dto";
 const Login = ({
+  webclient = "https://alice.imssystems.tech",
   onLogin = () => {},
   onPasswordChange = () => {},
   onEmailChange = () => {},
@@ -77,10 +78,7 @@ const Login = ({
             }}
           />
         </InputGroup>
-        <a
-          className="btn-link"
-          href={"https://alice.imssystems.tech/accounts/recovery"}
-        >
+        <a className="btn-link" href={webclient + "/accounts/recovery"}>
           <small>Forgot password?</small>
         </a>
         <Button
@@ -103,10 +101,7 @@ const Login = ({
         </Button>
       </Form>
       <small>Don't have an account? Let's </small>
-      <a
-        className="btn-link"
-        href={"https://alice.imssystems.tech/accounts/register"}
-      >
+      <a className="btn-link" href={webclient + "/accounts/register"}>
         <small>Get Started</small>.
       </a>
     </div>
